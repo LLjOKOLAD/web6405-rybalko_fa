@@ -1,0 +1,92 @@
+/* --- Основные стили --- */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Заголовок и меню --- */
+header {
+    background-color: #ffb6c1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Основной контент --- */
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.breed {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.breed img {
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+/* --- Галерея --- */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* --- Таблица --- */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th {
+    background-color: #ffe4e1;
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0f5;
+}
+
+/* --- Нижний колонтитул --- */
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
